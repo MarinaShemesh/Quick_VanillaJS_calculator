@@ -5,6 +5,9 @@ const inputLabel = document.getElementById('inputLabel');
  function pushBtn(obj){
    const pushed = obj.innerHTML;
 
+      console.log("pushed:", pushed);
+    console.log("inputLabel.innerHTML:", inputLabel.innerHTML);
+
    if(pushed === '='){
 
     //Calculate
